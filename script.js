@@ -38,6 +38,7 @@ async function getJokes() {
         }
         // Text-to-Speech
         tellMe(joke);
+        console.log('tell me a joke:', joke);
         // Disable Button
         toggleButton(); 
     } catch (error) {
